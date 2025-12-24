@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="title_page">Haukur Ingi Tómasson - CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="lang-toggle" aria-label="Switch language">🇮🇸 IS</button>
+      <div class="header">
+        <div class="full-name">
+          <span class="first-name">Haukur Ingi Tómasson</span>
+        </div>
+        <div class="contact-info">
+          <span class="email" data-i18n="label_email"></span>
+          <span class="email-val">haukurit@gmail.com</span>
+          <span class="separator"></span>
+          <span class="phone" data-i18n="label_phone"></span>
+          <span class="phone-val">+354 666-9515</span>
+          <div class="contact-info">
+            <span class="email" data-i18n="label_linkedin"></span>
+            <span class="email-val">
+              <a
+                href="https://www.linkedin.com/in/haukur-ingi-tómasson-92555934b"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="label_linkedin_profile"
+              ></a>
+            </span>
+          </div>
+        </div>
+
+        <div class="about">
+          <span class="position" data-i18n="position"></span>
+          <span class="desc" data-i18n="bio"> </span>
+        </div>
+        <div class="profile-right">
+          <img src="haukur.jpg" alt="Haukur Ingi Tómasson" />
+        </div>
+      </div>
+      <button id="download-pdf" class="download-btn" data-i18n="btn_download_pdf"></button>
+      <div class="details">
+        <div class="section">
+          <div class="section__title" data-i18n="title_experience"></div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name" data-i18n="exp1_company"></div>
+                <div class="addr" data-i18n="exp1_addr"></div>
+                <div class="duration" data-i18n="exp1_duration"></div>
+              </div>
+              <div class="right">
+                <div class="name" data-i18n="exp1_role"></div>
+                <div class="desc" data-i18n="exp1_desc"></div>
+              </div>
+            </div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name" data-i18n="exp2_company"></div>
+                <div class="addr" data-i18n="exp2_addr"></div>
+                <div class="duration" data-i18n="exp2_duration"></div>
+              </div>
+              <div class="right">
+                <div class="name" data-i18n="exp2_role"></div>
+                <div class="desc" data-i18n="exp2_desc"></div>
+              </div>
+            </div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name" data-i18n="exp3_company"></div>
+                <div class="addr" data-i18n="exp3_addr"></div>
+                <div class="duration" data-i18n="exp3_duration"></div>
+              </div>
+              <div class="right">
+                <div class="name" data-i18n="exp3_role"></div>
+                <div class="desc" data-i18n="exp3_desc"></div>
+              </div>
+            </div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name" data-i18n="exp4_company"></div>
+                <div class="addr" data-i18n="exp4_addr"></div>
+                <div class="duration" data-i18n="exp4_duration"></div>
+              </div>
+              <div class="right">
+                <div class="name" data-i18n="exp4_role"></div>
+                <div class="desc" data-i18n="exp4_desc"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section__title" data-i18n="title_education">Education</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name" data-i18n="edu1_school"></div>
+                <div class="addr" data-i18n="edu1_addr"></div>
+                <div class="duration" data-i18n="edu1_duration"></div>
+              </div>
+              <div class="right">
+                <div class="name" data-i18n="edu1_degree"></div>
+                <div class="desc" data-i18n="edu1_desc"></div>
+              </div>
+            </div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name" data-i18n="edu2_school"></div>
+                <div class="addr" data-i18n="edu2_addr"></div>
+                <div class="duration" data-i18n="edu2_duration"></div>
+              </div>
+              <div class="right">
+                <div class="name" data-i18n="edu2_degree"></div>
+                <div class="desc" data-i18n="edu2_desc"></div>
+              </div>
+            </div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name" data-i18n="edu3_school"></div>
+                <div class="addr" data-i18n="edu3_addr"></div>
+                <div class="duration" data-i18n="edu3_duration"></div>
+              </div>
+              <div class="right">
+                <div class="name" data-i18n="edu3_degree"></div>
+                <div class="desc" data-i18n="edu3_desc"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section__title" data-i18n="title_projects">Projects</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="name" data-i18n="proj1_title"></div>
+              <div class="text">
+                <span data-i18n="proj1_desc"></span>
+                <a href="/login" data-i18n="proj1_link_label"></a>
+              </div>
+            </div>
+
+            <div class="section__list-item">
+              <div class="name" data-i18n="proj2_title"></div>
+              <div class="text">
+                <span data-i18n="proj2_desc"></span>
+                <a href="https://hdl.handle.net/1946/46245" target="_blank" rel="noreferrer"
+                  >https://hdl.handle.net/1946/46245</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section__title" data-i18n="title_skills">Skills</div>
+          <div class="skills">
+            <div class="skills__item">
+              <div class="name" data-i18n="skill_js_name"></div>
+              <div class="text" data-i18n="skill_js_desc"></div>
+              <!-- <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div> -->
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="name" data-i18n="skill_css_name"></div>
+            <div class="text" data-i18n="skill_css_desc"></div>
+          </div>
+          <div class="skills__item">
+            <div class="name" data-i18n="skill_html_name"></div>
+            <div class="text" data-i18n="skill_html_desc"></div>
+          </div>
+          <div class="skills__item">
+            <div class="name" data-i18n="skill_python_name"></div>
+            <div class="text" data-i18n="skill_python_desc"></div>
+          </div>
+          <div class="skills__item">
+            <div class="name" data-i18n="skill_cpp_name"></div>
+            <div class="text" data-i18n="skill_cpp_desc"></div>
+          </div>
+          <div class="skills__item">
+            <div class="left">
+              <div class="name" data-i18n="skill_java_name"></div>
+              <div class="text" data-i18n="skill_java_desc"></div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="name" data-i18n="skill_sql_name"></div>
+            <div class="text" data-i18n="skill_sql_desc"></div>
+          </div>
+          <div class="skills__item">
+            <div class="name" data-i18n="skill_spss_name"></div>
+            <div class="text" data-i18n="skill_spss_desc"></div>
+          </div>
+          <div class="skills__item">
+            <div class="left">
+              <div class="name" data-i18n="skill_vm_name"></div>
+              <div class="text" data-i18n="skill_vm_desc"></div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="left">
+              <div class="name" data-i18n="skill_git_name"></div>
+              <div class="text" data-i18n="skill_git_desc"></div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="left">
+              <div class="name" data-i18n="skill_vscode_name"></div>
+              <div class="text" data-i18n="skill_vscode_desc"></div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="left">
+              <div class="name" data-i18n="skill_aws_name"></div>
+              <div class="text" data-i18n="skill_aws_desc"></div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="left">
+              <div class="name" data-i18n="skill_office_name"></div>
+              <div class="text" data-i18n="skill_office_desc"></div>
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="left">
+              <div class="name" data-i18n="skill_adobe_name"></div>
+              <div class="text" data-i18n="skill_adobe_desc"></div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section__title" data-i18n="title_languages">Languages</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="name" data-i18n="lang_is_name"></div>
+              <div class="text" data-i18n="lang_is_level"></div>
+            </div>
+            <div class="section__list-item">
+              <div class="name" data-i18n="lang_en_name"></div>
+              <div class="text" data-i18n="lang_en_level"></div>
+            </div>
+            <div class="section__list-item">
+              <div class="name" data-i18n="lang_da_name"></div>
+              <div class="text" data-i18n="lang_da_level"></div>
+            </div>
+            <div class="section__list-item">
+              <div class="name" data-i18n="lang_de_name"></div>
+              <div class="text" data-i18n="lang_de_level"></div>
+            </div>
+            <div class="section__list-item">
+              <div class="name" data-i18n="lang_es_name"></div>
+              <div class="text" data-i18n="lang_es_level"></div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section__title" data-i18n="title_interests">Interests</div>
+          <div class="section__list">
+            <div class="section__list-item" data-i18n="interests_text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const translations = {
+          en: {
+            title_page: "Haukur Ingi Tómasson - CV",
+            position: "Computer Scientist",
+            bio: "I am a soon-to-be computer scientist (graduating June 20th 2026) with heavy passion for what I do. I was born 2001 and raised in Grafarvogur, and am now located in Vesturbær Reykjavík. I have diverse experience in many fields owing to the different jobs I have worked and fields I have studied. I am now finishing my degree in computer science at the University in Reykjavík, and will be graduated in June 2026.",
+            label_email: "Email:",
+            label_phone: "Phone:",
+            label_linkedin: "LinkedIn:",
+            label_linkedin_profile: "LinkedIn Profile",
+            title_experience: "Experience",
+            title_education: "Education",
+            title_projects: "Projects",
+            title_skills: "Skills",
+            title_languages: "Languages",
+            title_interests: "Interests",
+            btn_download_pdf: "Download this CV as PDF",
+            exp1_company: "Seltjarnarnesbær",
+            exp1_addr: "Sundlaug Seltjarnarness",
+            exp1_duration: "Aug 2023 – present",
+            exp1_role: "Lifeguard",
+            exp1_desc: "Lifeguard / general guard duties. Relocated here due to moving houses.",
+            exp2_company: "Reykjavíkurborg",
+            exp2_addr: "Breiðholtslaug",
+            exp2_duration: "Apr 2022 – Aug 2023",
+            exp2_role: "Lifeguard",
+            exp2_desc: "Reception work, lifeguard / general guard duties.",
+            exp3_company: "Reykjavíkurborg",
+            exp3_addr: "Reykjavík",
+            exp3_duration: "May 2021 – Aug 2021",
+            exp3_role: "Event Manager",
+            exp3_desc:
+              "Rotated all assisted living facilities of the city, planned and hosted weekly events such as Bingo and movie screenings.",
+            exp4_company: "Gleðipinnar (former: Foodco)",
+            exp4_addr: "Reykjavík",
+            exp4_duration: "Jan 2017 – Aug 2020",
+            exp4_role: "General employee",
+            exp4_desc: "General service, waiting, cleaning and deliveries.",
+            edu1_school: "Reykjavík University",
+            edu1_addr: "Reykjavík",
+            edu1_duration: "Aug 2025 – Jun 2026",
+            edu1_degree: "BSc in Computer Science",
+            edu1_desc:
+              "Coursework in algorithms, data structures, databases, and software engineering.",
+            edu2_school: "University of Iceland",
+            edu2_addr: "Reykjavík",
+            edu2_duration: "Aug 2022 – Jun 2024",
+            edu2_degree: "BSc in Psychology",
+            edu2_desc:
+              "Focus on cognitive and social psychology, research methods, and psychological assessment.",
+            edu3_school: "Borgarholtsskóli",
+            edu3_addr: "Reykjavík",
+            edu3_duration: "Feb 2019 – Dec 2020",
+            edu3_degree: "Student in graphic design",
+            edu3_desc:
+              "Focus on visual communication, branding, typography, and digital design principles.",
+            proj1_title: "LOVE Synthesizers: Update and Sharing Hub",
+            proj1_desc:
+              "Developed an interface for synthesizer users to store and share sound configurations in the cloud, as well as remotely update the firmware of their synthesizer.",
+            proj1_link_label: "Link pending",
+            proj2_title:
+              "Bachelor Thesis: The Encoding Mechanisms of Serial Dependence: Exploring the Retinotopy of Visual Integration Using the Ternus–Pikler Display",
+            proj2_desc:
+              "Quantitative experimental research on visual integration and serial dependence, focusing on retinotopic processing.",
+            skill_js_name: "JavaScript",
+            skill_js_desc: "Build interactive UIs with modern ES6+, DOM events, and async APIs.",
+            skill_css_name: "CSS",
+            skill_css_desc: "Create responsive layouts with Flexbox/Grid and clean, consistent UI.",
+            skill_html_name: "HTML",
+            skill_html_desc: "Write semantic, accessible, SEO-friendly markup and forms.",
+            skill_python_name: "Python",
+            skill_python_desc:
+              "Main programming language taught at RU. I am familiar with frameworks such as Django and Flask, and imported libraries.",
+            skill_cpp_name: "C++",
+            skill_cpp_desc:
+              "Write modern C++ (C++17/20) with STL, templates, and solid memory management.",
+            skill_java_name: "Java",
+            skill_java_desc: "Build OOP services in Java with Spring basics and clean patterns.",
+            skill_sql_name: "SQL",
+            skill_sql_desc: "Design normalized schemas, write complex JOINs, and optimize queries.",
+            skill_spss_name: "SPSS and JASP",
+            skill_spss_desc:
+              "I'm familiar with statistical tests and analysis carried out in these programs.",
+            skill_vm_name: "Virtual Machines",
+            skill_vm_desc: "Specifically HyperV and subsystem.",
+            skill_git_name: "Git",
+            skill_git_desc: "Command line, in-browser GitHub and GitHub Desktop.",
+            skill_vscode_name: "Virtual Studio Code",
+            skill_vscode_desc:
+              "My main coding environment. I am also familiar with Nano and Vim and can of course lean into mastering those if required.",
+            skill_aws_name: "Amazon Web Services",
+            skill_aws_desc: "Deploy and monitor apps with core AWS services (EC2, S3, RDS, IAM).",
+            skill_office_name: "Microsoft Office",
+            skill_office_desc: "Word, Excel, PowerPoint.",
+            skill_adobe_name: "Adobe Programs",
+            skill_adobe_desc: "Much experience with Photoshop, Illustrator and InDesign.",
+            lang_is_name: "Icelandic",
+            lang_is_level: "Native",
+            lang_en_name: "English",
+            lang_en_level: "Fluent",
+            lang_da_name: "Danish",
+            lang_da_level: "Low-level",
+            lang_de_name: "German",
+            lang_de_level: "Low-level",
+            lang_es_name: "Spanish",
+            lang_es_level: "Aspiring",
+            interests_text:
+              "Music, programming, other nerd stuff. I played basketball and a lot of Dungeons and Dragons in my teenage years. I make a lot of visual art when I have time and play a multitude of instruments.",
+          },
+          is: {
+            title_page: "Haukur Ingi Tómasson - ferilskrá",
+            position: "Tölvunarfræðingur",
+            bio: "Ég er verðandi tölvunarfræðingur (útskrifast 20. júní 2026) með mikla ástríðu fyrir því sem ég stunda. Ég er fæddur 2001 og uppalinn í Grafarvogi og bý nú í Vesturbæ Reykjavíkur. Ég hef fjölbreytta reynslu af ólíkum störfum og námi. Nú er ég við það að ljúka BS-námi í tölvunarfræði við Háskólann í Reykjavík og útskrifast í júní 2026.",
+            label_email: "Netfang:",
+            label_phone: "Sími:",
+            label_linkedin: "LinkedIn:",
+            label_linkedin_profile: "LinkedIn prófíll",
+            title_experience: "Reynsla",
+            title_education: "Menntun",
+            title_projects: "Verkefni",
+            title_skills: "Hæfni",
+            title_languages: "Tungumál",
+            title_interests: "Áhugamál",
+            btn_download_pdf: "Sækja ferilskrá sem PDF",
+            exp1_company: "Seltjarnarnesbær",
+            exp1_addr: "Sundlaug Seltjarnarness",
+            exp1_duration: "ágúst 2023 – áframhaldandi",
+            exp1_role: "Sundlaugarvörður",
+            exp1_desc:
+              "Sundlaugarvörður / almenn vaktstörf. Flutti í þetta starf vegna húsaflutninga.",
+            exp2_company: "Reykjavíkurborg",
+            exp2_addr: "Breiðholtslaug",
+            exp2_duration: "apríl 2022 – ágúst 2023",
+            exp2_role: "Sundlaugarvörður",
+            exp2_desc: "Afgreiðsla, sundlaugavarðsla / almenn vaktstörf.",
+            exp3_company: "Reykjavíkurborg",
+            exp3_addr: "Reykjavík",
+            exp3_duration: "maí 2021 – ágúst 2021",
+            exp3_role: "Viðburðastjóri",
+            exp3_desc:
+              "Flakkaði á milli þjónustumiðstöðva og hjúkrunarheimila borgarinnar, skipulagði og stýrði vikulegum viðburðum eins og bingó og kvikmyndasýningum.",
+            exp4_company: "Gleðipinnar (áður Foodco)",
+            exp4_addr: "Reykjavík",
+            exp4_duration: "janúar 2017 – ágúst 2020",
+            exp4_role: "Starfsmaður í almennri þjónustu",
+            exp4_desc: "Almenn þjónusta, afgreiðsla, þrif og heimsendingar.",
+            edu1_school: "Háskólinn í Reykjavík",
+            edu1_addr: "Reykjavík",
+            edu1_duration: "ágúst 2025 – júní 2026",
+            edu1_degree: "BS í tölvunarfræði",
+            edu1_desc: "Nám í reikniritum, gagnaskipan, gagnasöfnum og hugbúnaðarverkfræði.",
+            edu2_school: "Háskóli Íslands",
+            edu2_addr: "Reykjavík",
+            edu2_duration: "ágúst 2022 – júní 2024",
+            edu2_degree: "BS í sálfræði",
+            edu2_desc:
+              "Áhersla á hugræna og félagslega sálfræði, rannsóknaraðferðir og sálfræðilegt mat.",
+            edu3_school: "Borgarholtsskóli",
+            edu3_addr: "Reykjavík",
+            edu3_duration: "febrúar 2019 – desember 2020",
+            edu3_degree: "Nám í grafískri hönnun",
+            edu3_desc:
+              "Áhersla á sjónræna miðlun, vörumerkjahönnun, leturfræði og stafrænar hönnunarreglur.",
+            proj1_title: "LOVE Synthesizers: Update and Sharing Hub",
+            proj1_desc:
+              "Hannaði viðmót fyrir eigendur hljóðgervla til að vista og deila hljóðstillingum á skýi og uppfæra vélbúnaðarhugbúnað (firmware) á netinu.",
+            proj1_link_label: "Tengill kemur síðar",
+            proj2_title:
+              "BSc-ritgerð: The Encoding Mechanisms of Serial Dependence: Exploring the Retinotopy of Visual Integration Using the Ternus–Pikler Display",
+            proj2_desc:
+              "Megindleg tilraunarannsókn á sjónrænni samþættingu og serial dependence með áherslu á retinótópíska úrvinnslu.",
+            skill_js_name: "JavaScript",
+            skill_js_desc:
+              "Gagnvirk notendaviðmót með nútímalegu ES6+, DOM-atburðum og ósamstilltum (async) API-köllum.",
+            skill_css_name: "CSS",
+            skill_css_desc:
+              "Móttækilegt skipulag með Flexbox/Grid og snyrtilegt, samræmt notendaviðmót.",
+            skill_html_name: "HTML",
+            skill_html_desc:
+              "Merkingarfræðilegt, aðgengilegt HTML og eyðublöð sem henta vel fyrir leitarvélar.",
+            skill_python_name: "Python",
+            skill_python_desc:
+              "Aðal forritunarmálið í námi mínu við HR. Þekki ramma (frameworks) eins og Django og Flask og ýmis Python-söfn.",
+            skill_cpp_name: "C++",
+            skill_cpp_desc:
+              "Skrifa nútímalegt C++ (C++17/20) með STL, sniðmátum og áreiðanlegri minnisstjórnun.",
+            skill_java_name: "Java",
+            skill_java_desc:
+              "Smíða hlutbundin Java-kerfi með grunnþekkingu á Spring og hreinum hönnunarmynstrum.",
+            skill_sql_name: "SQL",
+            skill_sql_desc:
+              "Hanna normalíseruð gagnalíkön, skrifa flóknar JOIN-fyrirspurnir og fínstilla gagnagrunnsfyrirspurnir.",
+            skill_spss_name: "SPSS og JASP",
+            skill_spss_desc:
+              "Ég er reyndur í tölfræðiprófum og greiningu sem þessi forrit eiga við.",
+            skill_vm_name: "Sýndarvélar",
+            skill_vm_desc: "Sérstaklega HyperV og undirkerfi í Windows.",
+            skill_git_name: "Git",
+            skill_git_desc: "Git í skipanalínu, GitHub í vafra og GitHub Desktop.",
+            skill_vscode_name: "Virtual Studio Code",
+            skill_vscode_desc:
+              "Mitt helsta þróunarumhverfi. Þekki einnig Nano og Vim og get dýpkað þá kunnáttu ef þörf er á.",
+            skill_aws_name: "Amazon Web Services",
+            skill_aws_desc:
+              "Setja upp og fylgjast með forritum með helstu AWS-þjónustum (EC2, S3, RDS, IAM).",
+            skill_office_name: "Microsoft Office",
+            skill_office_desc: "Word, Excel, PowerPoint.",
+            skill_adobe_name: "Adobe forrit",
+            skill_adobe_desc: "Mikil reynsla af Photoshop, Illustrator og InDesign.",
+            lang_is_name: "Íslenska",
+            lang_is_level: "Móðurmál",
+            lang_en_name: "Enska",
+            lang_en_level: "Reiprennandi",
+            lang_da_name: "Danska",
+            lang_da_level: "Grunnþekking",
+            lang_de_name: "Þýska",
+            lang_de_level: "Grunnþekking",
+            lang_es_name: "Spænska",
+            lang_es_level: "Kemur seinna",
+            interests_text:
+              "Tónlist, forritun og annað nördalegt. Ég spilaði körfubolta og mikið Dungeons and Dragons á unglingsárunum. Ég geri oft myndlist þegar tími gefst og spila á mörg hljóðfæri.",
+          },
+        };
+
+        const button = document.getElementById("lang-toggle");
+        if (!button) return;
+
+        const downloadBtn = document.getElementById("download-pdf");
+
+        let current = localStorage.getItem("lang") || document.documentElement.lang || "en";
+
+        function applyLang(lang) {
+          current = lang;
+          button.textContent = lang === "en" ? "🇮🇸 IS" : "🇬🇧 EN";
+          document.documentElement.lang = lang === "en" ? "en" : "is";
+
+          const dict = translations[lang] || {};
+          document.querySelectorAll("[data-i18n]").forEach((el) => {
+            const key = el.getAttribute("data-i18n");
+            if (Object.prototype.hasOwnProperty.call(dict, key)) {
+              el.textContent = dict[key];
+            }
+          });
+
+          localStorage.setItem("lang", lang);
+        }
+
+        button.addEventListener("click", function () {
+          applyLang(current === "en" ? "is" : "en");
+        });
+
+        if (downloadBtn) {
+          downloadBtn.addEventListener("click", function () {
+            window.print();
+          });
+        }
+
+        applyLang(current === "is" ? "is" : "en");
+      })();
+    </script>
+  </body>
+</html>
