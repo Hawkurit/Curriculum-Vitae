@@ -166,9 +166,29 @@ body {
 
   .section__list-item {
     margin-bottom: 16px;
+    padding-top: 6px;
+    border-top: 1px solid #eee;
   }
 
   .section__list-item:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .section__list-item:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+  }
+
+  .languages-list .section__list-item {
+    flex: 0 0 auto;
+    border-top: none;
+    padding-top: 0;
     margin-bottom: 0;
   }
 
